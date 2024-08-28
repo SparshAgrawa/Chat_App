@@ -1,3 +1,43 @@
+#Designing:-
+1-using redux hooks
+2-reducer
+3-action
+
+#functionality
+1-create contact
+2-create group
+3-show contactList
+4-Search contact
+5-also show group
+6-show chatList
+7-show description
+8-show groupMember 
+9-show last massage in contacts
+10-send chat
+11-send images in chat
+12-choose profile for group and contacts
+
+
+#Instructions
+	●	Functionality
+	○	Assume you are a dummy logged in user.
+	○	Use a json file to load some dummy data in the project.
+	○	Search : conversations should be searchable by contact name.
+	○	Left sidebar:
+	■	Show all the conversations created here
+■	Each conversation should have the contact name and some text of the last message in the chat ○	Create conversation button
+■	On clicking this open a pop up and load all the contacts (from the dummy data.json/js file).
+■	On clicking the contact should start a new conversation (if no conversation was previously started). Or open the existing conversation for that contact. ○	Right side view
+	■	Show the current selected conversation messages
+	■	Send a message in the conversation
+	○	Handle errors and success alerts and show appropriate Alert/Notification.
+	○	You have to use react-router.
+	○	You have to use react hooks ONLY.
+○	Bonus feature: Make the redux data persistent such that after refresh, the messages and conversations are intact.
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
