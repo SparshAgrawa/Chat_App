@@ -21,7 +21,7 @@ export const StoreContext = createContext();
 
 // Define user information
 const user = {
-  name: "Prem",
+  name: "Sparsh",
   mobile: 9301511759,
   profilePic: require("./assets/myPhoto.jpg"),
   contactId: 0, // like user id

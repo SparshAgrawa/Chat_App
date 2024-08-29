@@ -29,7 +29,7 @@ export const data = {
       },
       groupAdmins: [
         {
-          name: "Premnarayan",
+          name: "Sparsh",
           mobile: "9301511759",
           profilePic: require("./assets/prem.jpg"),
         },
@@ -72,7 +72,7 @@ export const data = {
       },
       groupAdmins: [
         {
-          name: "Premnarayan",
+          name: "Sparsh",
           mobile: "9301511759",
           profilePic: require("./assets/prem.jpg"),
         },
@@ -99,7 +99,7 @@ export const data = {
       },
       groupAdmins: [
         {
-          name: "Premnarayan",
+          name: "Sparsh",
           mobile: "9301511759",
           profilePic: require("./assets/prem.jpg"),
         },
@@ -228,7 +228,7 @@ export const data = {
         },
         {
           isMyMessage: true,
-          senderName: "Premnarayan",
+          senderName: "Sparsh",
           mobileNumber: "9301511759",
           senderPict: require("./assets/prem.jpg"),
           date: "31/07/2024",
@@ -250,7 +250,7 @@ export const data = {
         },
         {
           isMyMessage: true,
-          senderName: "Premnarayan",
+          senderName: "Sparsh",
           mobileNumber: "9301511759",
           senderPict: require("./assets/prem.jpg"),
           date: "31/07/2024",
@@ -302,7 +302,7 @@ export const data = {
         },
         {
           isMyMessage: true,
-          senderName: "Premnarayan",
+          senderName: "narayan",
           mobileNumber: "9301511759",
           senderPict: require("./assets/prem.jpg"),
           date: "31/07/2024",
