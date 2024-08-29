@@ -1,32 +1,45 @@
 .nav {
-  background: rgb(222, 180, 180);
+  background: #dcbfbf;
   height: 8%;
-  padding: 10px;
+  padding: 10px 20px;
   box-sizing: border-box;
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: relative;
+  border-bottom: 2px solid #bfa7a7;
 }
 
 .rounded-img-container {
   height: 50px;
   width: 50px;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .rounded-img-container img {
   height: 100%;
   width: 100%;
-  border-radius: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #bfa7a7;
 }
 
 .create-group {
-  background-color: rgb(226, 147, 147);
-  color: white;
-  outline: none;
-  border-radius: 10px;
+  background-color: #e29595;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
   font-size: 18px;
   font-weight: 700;
   cursor: pointer;
+  padding: 10px 20px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.create-group:hover {
+  background-color: #d47f7f;
+  transform: scale(1.05);
 }
