@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c70a9414.css",
+    "main.js": "/static/js/main.ee134ba9.js",
+    "static/media/raksha.jpg": "/static/media/raksha.4d2ef03ba75f8602ae55.jpg",
+    "static/media/java.jpg": "/static/media/java.f1d38b224eafa0958fd0.jpg",
+    "index.html": "/index.html",
+    "main.c70a9414.css.map": "/static/css/main.c70a9414.css.map",
+    "main.ee134ba9.js.map": "/static/js/main.ee134ba9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c70a9414.css",
+    "static/js/main.ee134ba9.js"
+  ]
+}
