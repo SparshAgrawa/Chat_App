@@ -5,7 +5,7 @@ export const data = {
       isGroup: false,
       contactOrGroupId: 1, //userId
       contactOrGroupName: "Anil",
-      mobileNumber: "9893567476", //admin mobile number or user/contact number
+      mobileNumber: "9893567476",
       profilePict: require("./assets/anil.jpg"),
       lastChat: {
         text: "Hello how are you...",
@@ -48,49 +48,20 @@ export const data = {
       isGroup: false,
       contactOrGroupId: 3,
       contactOrGroupName: "Akash",
-      mobileNumber: "8463784838", //admin mobile number or user/contact number
+      mobileNumber: "8463784838",
       profilePict: require("./assets/akash.jpg"),
       lastChat: {
         text: "ok sir i am ready to join...",
         date: "01/08/2024",
         time: "11:00 am",
       },
-      //group:null,
     },
 
     //-------4-----------------
     {
       isGroup: true,
-      contactOrGroupId: 4,
-      contactOrGroupName: "Full stack web",
-      // mobileNumber:null,
-      profilePict: require("./assets/fullstack.png"),
-      lastChat: {
-        text: "hello! how are yo students...?",
-        date: "02/08/2024",
-        time: "09:00 am",
-      },
-      groupAdmins: [
-        {
-          name: "Sparsh",
-          mobile: "9301511759",
-          profilePic: require("./assets/prem.jpg"),
-        },
-      ],
-      lastActiveUser: [
-        {
-          name: "Anil",
-          mobile: "9893567476",
-          profilePic: require("./assets/anil.jpg"),
-        },
-      ],
-    },
-    //-------5-----------------
-    {
-      isGroup: true,
       contactOrGroupId: 5,
       contactOrGroupName: "Placement Cell",
-      // mobileNumber:null,
       profilePict: require("./assets/myPhoto.jpg"),
       lastChat: {
         text: "hello! all candidate send Your Resume",
@@ -115,30 +86,15 @@ export const data = {
     //-------6-----------------
     {
       isGroup: false,
-      contactOrGroupId: 6,
-      contactOrGroupName: "Deeksha",
-      mobileNumber: "7578474884", //admin mobile number or user/contact number
-      profilePict: require("./assets/deeksha.jpg"),
-      lastChat: {
-        text: "join google meet tody!",
-        date: "01/08/2024",
-        time: "11:00 am",
-      },
-      //group:null,
-    },
-    //-------7-----------------
-    {
-      isGroup: false,
       contactOrGroupId: 7,
       contactOrGroupName: "Ankit",
-      mobileNumber: "7588685994", //admin mobile number or user/contact number
+      mobileNumber: "7588685994",
       profilePict: require("./assets/ankit.jpg"),
       lastChat: {
         text: "You can join Forever,can you interested",
         date: "01/08/2023",
         time: "11:00 am",
       },
-      //group:null,
     },
 
     //-------8-----------------
@@ -146,14 +102,13 @@ export const data = {
       isGroup: false,
       contactOrGroupId: 8,
       contactOrGroupName: "ravi",
-      mobileNumber: "556667666", //admin mobile number or user/contact number
+      mobileNumber: "556667666",
       profilePict: require("./assets/ravi.jpg"),
       lastChat: {
         text: "hi how are you",
         date: "01/08/2024",
         time: "11:00 am",
       },
-      //group:null,
     },
 
     //-------9-----------------
@@ -161,14 +116,13 @@ export const data = {
       isGroup: false,
       contactOrGroupId: 9,
       contactOrGroupName: "Raksha",
-      mobileNumber: "8899987889", //admin mobile number or user/contact number
+      mobileNumber: "8899987889",
       profilePict: require("./assets/raksha.jpg"),
       lastChat: {
         text: "happy birthday",
         date: "01/08/2024",
         time: "11:00 am",
       },
-      //group:null,
     },
 
     //-------10-----------------
@@ -176,14 +130,13 @@ export const data = {
       isGroup: false,
       contactOrGroupId: 10,
       contactOrGroupName: "Rohit",
-      mobileNumber: "78888778", //admin mobile number or user/contact number
+      mobileNumber: "78888778",
       profilePict: require("./assets/rohit.jpg"),
       lastChat: {
         text: " Congratulation",
         date: "01/08/2024",
         time: "11:00 am",
       },
-      //group:null,
     },
   ],
 
@@ -386,7 +339,7 @@ export const data = {
         },
         {
           isMyMessage: true,
-          senderName: "Premnarayan",
+          senderName: "Sparsh",
           mobileNumber: "9301511759",
           senderPict: require("./assets/prem.jpg"),
           date: "30/07/2024",
@@ -408,7 +361,7 @@ export const data = {
         },
         {
           isMyMessage: true,
-          senderName: "Premnarayan",
+          senderName: "Sparsh",
           mobileNumber: "9301511759",
           senderPict: require("./assets/prem.jpg"),
           date: "30/07/2024",
@@ -419,7 +372,7 @@ export const data = {
         },
         {
           isMyMessage: true,
-          senderName: "Premnarayan",
+          senderName: "Sparsh",
           mobileNumber: "9301511759",
           senderPict: require("./assets/prem.jpg"),
           date: "30/07/2024",
@@ -430,7 +383,7 @@ export const data = {
         },
         {
           isMyMessage: true,
-          senderName: "Premnarayan",
+          senderName: "Sparsh",
           mobileNumber: "9301511759",
           senderPict: require("./assets/prem.jpg"),
           date: "30/07/2024",
@@ -459,7 +412,7 @@ export const data = {
         },
         {
           isMyMessage: true,
-          senderName: "Premnarayan",
+          senderName: "Sparsh",
           mobileNumber: "9301511759",
           senderPict: require("./assets/prem.jpg"),
           date: "31/07/2024",
@@ -514,7 +467,7 @@ export const data = {
         },
         {
           isMyMessage: true,
-          senderName: "Premnarayan",
+          senderName: "Sparsh",
           mobileNumber: "9301511759",
           senderPict: require("./assets/prem.jpg"),
           date: "31/07/2024",
@@ -554,7 +507,7 @@ export const data = {
         },
         {
           isMyMessage: true,
-          senderName: "Premnarayan",
+          senderName: "Sparsh",
           mobileNumber: "9301511759",
           senderPict: require("./assets/prem.jpg"),
           date: "31/07/2024",
@@ -636,17 +589,7 @@ export const data = {
     {
       contactOrGroupId: 6,
       chatsLists: [
-        {
-          isMyMessage: false,
-          senderName: "Deeksha",
-          mobileNumber: "7578474884",
-          senderPict: require("./assets/deeksha.jpg"),
-          date: "30/07/2024",
-          time: "03:00 PM",
-          content: "How are you?",
-          contentType: "text",
-          chatId: 37,
-        },
+   
         {
           isMyMessage: true,
           senderName: "Premnarayan",
@@ -658,17 +601,7 @@ export const data = {
           contentType: "text",
           chatId: 38,
         },
-        {
-          isMyMessage: false,
-          senderName: "Deeksha",
-          mobileNumber: "7578474884",
-          senderPict: require("./assets/deeksha.jpg"),
-          date: "30/07/2024",
-          time: "03:00 PM",
-          content: require("./assets/deeksha.jpg"),
-          contentType: "img",
-          chatId: 39,
-        },
+       
         {
           isMyMessage: true,
           senderName: "Premnarayan",
