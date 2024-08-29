@@ -1,79 +1,97 @@
 .ContactList {
   height: 92%;
-  width: 40%;
-  border: solid 1px grey;
+  width: 35%;
+  border: 1px solid #ddd;
   display: inline-block;
   box-sizing: border-box;
   overflow: hidden;
-  margin-left: 0;
-  padding: 0 20px;
+  padding: 20px;
   position: relative;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .contactsListMain {
-  overflow-x: hidden;
-  height: 90%;
-  padding-bottom: 40px;
+  overflow-y: auto;
+  height: calc(100% - 50px);
+  padding-bottom: 50px;
   box-sizing: border-box;
 }
 
 .searchResults {
-  width: 92.5%;
-  border: solid 2px grey;
-  border-top: solid 1px;
+  width: calc(100% - 20px);
+  border: 2px solid #ddd;
+  border-top: 1px solid #ddd;
   box-sizing: border-box;
-  overflow-x: hidden;
-  padding: 10px;
+  overflow-y: auto;
+  padding: 15px;
   position: absolute;
-  top: 50px;
-  padding-bottom: 20px;
-  background-color: papayawhip;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
+  top: 60px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .hideSearchResultsBtn {
-  border-radius: 10px;
+  border-radius: 5px;
   outline: none;
-  border: solid 1px gray;
-  color: red;
-  background-color: peachpuff;
+  border: 1px solid #ddd;
+  color: #d9534f;
+  background-color: #f7f7f7;
   text-align: center;
-  font-weight: 400;
+  font-weight: 500;
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 10px;
+  right: 10px;
+  padding: 5px 10px;
   cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.hideSearchResultsBtn:hover {
+  background-color: #e6e6e6;
+  color: #c9302c;
 }
 
 .notFoundResults {
-  color: gray;
-  font-weight: 600;
+  color: #999;
+  font-weight: 500;
   text-align: center;
+  font-size: 16px;
 }
 
 .contactHeading {
   display: flex;
   align-items: center;
   width: 100%;
-  /* padding: 5px; */
   justify-content: space-between;
-  box-sizing: border-box;
-  margin-top: 0;
+  margin: 0;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+  background-color: #f0f0f0;
+  border-radius: 8px;
 }
 
 .contactHeading span {
-  color: gray;
+  color: #333;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .contactHeading button {
-  color: gray;
+  color: #555;
   font-weight: 700;
-  font-size: 18px;
-  border-radius: 100%;
-  background-color: white;
-  border-color: rgb(232, 171, 148);
+  font-size: 20px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 2px solid #ddd;
   cursor: pointer;
+  padding: 5px 10px;
+  transition: background-color 0.2s, border-color 0.2s;
+}
+
+.contactHeading button:hover {
+  background-color: #f7f7f7;
+  border-color: #bbb;
 }
